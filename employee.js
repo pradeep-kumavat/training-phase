@@ -11,8 +11,7 @@ function parseEmployees(employeeStrings) {
   });
 }
 
-//me feature wali branch me hu 
-
+//merge karne ke baad conflict aa sakta hai isliye alag function me likha hai
 function getEmployeesByDept(dept, employees) {
   return employees.filter(emp => 
     emp.department.toLowerCase() === dept.toLowerCase()
